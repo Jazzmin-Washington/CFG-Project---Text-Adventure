@@ -1,0 +1,45 @@
+starting_box {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #333;
+}
+
+.container {
+	width: 800px;
+	max-width: 80%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 2px;
+	font-size: 24px;
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+	text-align: center;
+}
+.button-grid {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.button {
+	background-color: rgb(156, 118, 231);
+	border: 1px solid rgba(93, 70, 244, 0.985);
+	border-radius: 6px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.button:hover {
+	border-color: black;
+}
