@@ -1,8 +1,5 @@
 # CFG-Project---Text-Adventure
 
-
-Certainly! Here's a summary for your Choose-Your-Own-Adventure (CYOA) project implemented using HTML, CSS, and JavaScript:
-
 Project Summary: CYOA Text Adventure
 
 Our CYOA Text Adventure project is an interactive storytelling experience created with HTML, CSS, and JavaScript. It offers users an engaging journey through a series of decisions that shape the outcome of the story.
